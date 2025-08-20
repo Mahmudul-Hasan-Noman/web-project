@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
+    
     <header class="header">
         <div class="container">
             <div class="header-content">
@@ -38,7 +38,6 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="hero-text">
@@ -52,7 +51,7 @@
         </div>
     </section>
 
-    <!-- Quick Stats -->
+   
     <section class="stats">
         <div class="container">
             <div class="stats-grid">
@@ -76,7 +75,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
             <div class="about-content">
@@ -106,7 +104,7 @@
         </div>
     </section>
 
-    <!-- Programs Section -->
+    
     <section id="programs" class="programs">
         <div class="container">
             <h2 class="section-title">Academic Programs</h2>
@@ -151,7 +149,6 @@
         </div>
     </section>
 
-    <!-- Faculty Section -->
     <section id="faculty" class="faculty">
         <div class="container">
             <h2 class="section-title">Our Faculty</h2>
@@ -200,7 +197,6 @@
         </div>
     </section>
 
-    <!-- Research Section -->
     <section id="research" class="research">
         <div class="container">
             <h2 class="section-title">Research Areas</h2>
@@ -233,7 +229,7 @@
         </div>
     </section>
 
-    <!-- News Section -->
+   
     <section id="news" class="news">
         <div class="container">
             <h2 class="section-title">Latest News</h2>
@@ -260,7 +256,7 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
+    
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Contact Us</h2>
@@ -309,7 +305,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+   
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
@@ -354,12 +350,11 @@
     </footer>
 
     <script>
-        // Mobile menu toggle
+       
         document.querySelector('.mobile-menu-toggle').addEventListener('click', function() {
             document.querySelector('.nav').classList.toggle('active');
         });
 
-        // Smooth scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -369,7 +364,7 @@
             });
         });
 
-        // Header background on scroll
+    
         window.addEventListener('scroll', function() {
             if (window.scrollY > 100) {
                 document.querySelector('.header').classList.add('scrolled');
@@ -379,4 +374,5 @@
         });
     </script>
 </body>
+
 </html>
